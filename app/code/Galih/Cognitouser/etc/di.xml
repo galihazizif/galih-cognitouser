@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Model\AccountManagement">
+        <plugin name="galih_cognitouser_accountmanagement_authenticate" type="Galih\Cognitouser\Plugin\Authenticate" sortOrder="10" />
+        <plugin name="galih_cognitouser_accountmanagement_signup" type="Galih\Cognitouser\Plugin\Signup" sortOrder="10" />
+        <plugin name="galih_cognitouser_accountmanagement_change_password" type="Galih\Cognitouser\Plugin\ChangePassword" sortOrder="10" />
+    </type>
+</config>

@@ -1,0 +1,24 @@
+{
+    "name": "galih/module-cognitouser",
+    "description": "Galih Cognito, integrate Magento2 and AWS Cognito user pool",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Galih Azizi",
+            "email": "galihazizy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aws/aws-sdk-php":"*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Galih\\Cognitouser\\": ""
+        }
+    }
+}
